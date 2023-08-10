@@ -62,9 +62,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseConnector {
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/your_database_name";
-    private static final String JDBC_USER = "your_username";
-    private static final String JDBC_PASSWORD = "your_password";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/deepakdb";
+    private static final String JDBC_USER = "deepakuser";
+    private static final String JDBC_PASSWORD = "deepakpass";
 
     public List<Employee> getEmployees() {
         List<Employee> employees = new ArrayList<>();
