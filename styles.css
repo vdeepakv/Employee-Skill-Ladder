@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#filter-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+#filter-options select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#filter-options button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#table-container {
+  margin-top: 20px;
+}
+
+#employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#employee-table th, #employee-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+#graph-container {
+  margin-top: 20px;
+  text-align: center;
+}
